@@ -9,3 +9,7 @@ test('multiply(2, 3) returns 6', () => {
 test('multiply(-1, 5) returns -5', () => {
   assert.equal(multiply(-1, 5), -5);
 });
+
+test('multiply(0, 7) returns 0', () => {
+  assert.equal(multiply(0, 7), 0);
+});
